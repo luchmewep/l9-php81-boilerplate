@@ -1,5 +1,6 @@
 <?php
 
+use Filament\Http\Middleware\Authenticate;
 use Laravel\Telescope\Http\Middleware\Authorize;
 use Laravel\Telescope\Watchers;
 
@@ -78,6 +79,8 @@ return [
     'middleware' => [
         'web',
         Authorize::class,
+        Authenticate::class, // uses Filament's Middleware to redirect to Filament's Login Page
+        'permission:view-telescope',
     ],
 
     /*

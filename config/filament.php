@@ -316,6 +316,7 @@ return [
     'middleware' => [
         'auth' => [
             Authenticate::class,
+            'permission:view-admin-dashboard'
         ],
         'base' => [
             EncryptCookies::class,

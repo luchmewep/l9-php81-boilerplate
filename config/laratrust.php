@@ -4,6 +4,7 @@ use App\Models\Permission;
 use App\Models\Role;
 use App\Models\Team;
 use App\Models\User;
+use Filament\Http\Middleware\Authenticate;
 
 return [
     /*
@@ -284,7 +285,7 @@ return [
         | will be accessible from.
         |
         */
-        'path' => 'roles-permissions',
+        'path' => 'laratrust',
 
         /*
         |--------------------------------------------------------------------------
@@ -294,7 +295,7 @@ return [
         | The route where the go back link should point
         |
         */
-        'go_back_route' => '/',
+        'go_back_route' => '/admin',
 
         /*
         |--------------------------------------------------------------------------
@@ -304,7 +305,11 @@ return [
         | These middleware will get attached onto each Laratrust panel route.
         |
         */
-        'middleware' => ['web'],
+        'middleware' => [
+            'web',
+            Authenticate::class, // uses Filament's Middleware to redirect to Filament's Login Page
+            'permission:view-laratrust'
+        ],
 
         /*
         |--------------------------------------------------------------------------
