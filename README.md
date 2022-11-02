@@ -1,9 +1,16 @@
-## Laravel 9 - PHP 8.1 Boilerplate
-
-This boilerplate is created to initialize a project faster. This comes with pre-configured packages handpicked by yours truly.
-
-###
-
+<!-- TOC -->
+  * [About the Boilerplate](#about-the-boilerplate)
+    * [Dependencies](#dependencies)
+    * [Entity Relationship Diagrams](#entity-relationship-diagrams)
+  * [About Laravel](#about-laravel)
+  * [Learning Laravel](#learning-laravel)
+  * [Laravel Sponsors](#laravel-sponsors)
+    * [Premium Partners](#premium-partners)
+  * [Contributing](#contributing)
+  * [Code of Conduct](#code-of-conduct)
+  * [Security Vulnerabilities](#security-vulnerabilities)
+  * [License](#license)
+<!-- TOC -->
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
@@ -13,6 +20,30 @@ This boilerplate is created to initialize a project faster. This comes with pre-
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
+## About the Boilerplate
+
+This boilerplate is created to initialize a project faster. This comes with pre-configured packages handpicked by yours truly.
+
+### Dependencies
+
+- Production Dependencies
+
+| Package                 | Version | Purpose                                                                                                        | Documentation                              |
+|-------------------------|---------|:---------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| `santigarcor/laratrust` | `^7.1`  | Laratrust is a Laravel package that lets you handle very easily roles and permissions inside your application. | https://laratrust.santigarcor.me/docs/7.x/ |
+
+- Development Dependencies
+
+| Package                 | Version | Purpose                                                                                                        | Documentation                              |
+|-------------------------|---------|:---------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+|                         |         |                                                                                                                |                                            |
+
+### Entity Relationship Diagrams
+
+- User-Team-Role-Permission (Laratrust)
+
+<p align="center"><img src="./users-teams-roles-permissions-erd.png" width="1000"/></p>
 
 ## About Laravel
 
