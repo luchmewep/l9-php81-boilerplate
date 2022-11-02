@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7bdaea8f2ad409e325ce1bd29dc8ce5f",
+    "content-hash": "47141c8423522dc67d68e64e16dae245",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -1726,6 +1726,82 @@
                 "source": "https://github.com/filamentphp/filament"
             },
             "time": "2022-10-30T20:32:26+00:00"
+        },
+        {
+            "name": "fligno/api-sdk-kit",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fligno-Software/api-sdk-kit.git",
+                "reference": "e981065ea472364d42eb112340ede4bec08d11a4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fligno-Software/api-sdk-kit/zipball/e981065ea472364d42eb112340ede4bec08d11a4",
+                "reference": "e981065ea472364d42eb112340ede4bec08d11a4",
+                "shasum": ""
+            },
+            "require": {
+                "fligno/starter-kit": "^3.1",
+                "illuminate/support": "~7|~8|~9",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~5|~6|~7",
+                "phpunit/phpunit": "~9.0",
+                "roave/security-advisories": "dev-latest"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Fligno\\ApiSdkKit\\Providers\\ApiSdkKitServiceProvider"
+                    ],
+                    "aliases": {
+                        "ApiSdkKit": "Fligno\\ApiSdkKit\\Facades\\ApiSdkKit"
+                    }
+                },
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev",
+                    "dev-develop": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "helpers/api-sdk-kit-helper.php",
+                    "helpers/make-request-helper.php"
+                ],
+                "psr-4": {
+                    "Fligno\\ApiSdkKit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Carlo Luchavez",
+                    "email": "jamescarlo.luchavez@fligno.com",
+                    "homepage": "https://www.linkedin.com/in/jsluchavez/"
+                },
+                {
+                    "name": "Fligno",
+                    "email": "apps@fligno.com",
+                    "homepage": "https://fligno.com/"
+                }
+            ],
+            "description": "API Integration Starter Kit for Laravel SDK Packages",
+            "homepage": "https://github.com/fligno/api-sdk-kit",
+            "keywords": [
+                "ApiSdkKit",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/Fligno-Software/api-sdk-kit/issues",
+                "source": "https://github.com/Fligno-Software/api-sdk-kit/tree/1.4.0"
+            },
+            "time": "2022-11-01T18:06:31+00:00"
         },
         {
             "name": "fligno/starter-kit",
