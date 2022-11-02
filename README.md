@@ -29,19 +29,22 @@ This boilerplate is created to initialize a project faster. This comes with pre-
 
 - Production Dependencies
 
-| Package                 | Version | Purpose                                                                                                        | Documentation                              |
-|-------------------------|---------|:---------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| `santigarcor/laratrust` | `^7.1`  | Laratrust is a Laravel package that lets you handle very easily roles and permissions inside your application. | https://laratrust.santigarcor.me/docs/7.x/ |
+| Package                 | Version | Purpose                                                                                                        | Documentation                                       |
+|-------------------------|---------|:---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| `filament/filament`     | `^2.0`  | Filament is a collection of tools for rapidly building beautiful TALL stack apps, designed for humans.         | https://filamentphp.com/docs/2.x/admin/installation |
+| `fligno/api-sdk-kit`    | `^1.4`  | API Integration Starter Kit for Laravel SDK Packages                                                           | https://github.com/Fligno-Software/api-sdk-kit      |
+| `fligno/starter-kit`    | `^3.1`  | Starter Kit for Laravel Developers                                                                             | https://github.com/Fligno-Software/starter-kit      |
+| `santigarcor/laratrust` | `^7.1`  | Laratrust is a Laravel package that lets you handle very easily roles and permissions inside your application. | https://laratrust.santigarcor.me/docs/7.x/          |
 
 - Development Dependencies
 
-| Package                 | Version | Purpose                                                                                                        | Documentation                              |
-|-------------------------|---------|:---------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-|                         |         |                                                                                                                |                                            |
+| Package                        | Version | Purpose                                                | Documentation                                            |
+|--------------------------------|---------|:-------------------------------------------------------|----------------------------------------------------------|
+| `fligno/boilerplate-generator` | `^2.2`  | Boilerplate Generator for Laravel and Laravel Packages | https://github.com/Fligno-Software/boilerplate-generator |
 
-### Entity Relationship Diagrams
+### Entity Relationship Diagram
 
-- User-Team-Role-Permission (Laratrust)
+**Note**: Excluded `laravel/telescope` and `fligno/api-sdk-kit` tables.
 
 <p align="center"><img src="./users-teams-roles-permissions-erd.png" width="1000"/></p>
 
