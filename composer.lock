@@ -9407,16 +9407,16 @@
         },
         {
             "name": "fligno/boilerplate-generator",
-            "version": "2.2.2",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fligno-Software/boilerplate-generator.git",
-                "reference": "7461fce8b95653d7f876fce5e15fde8a8f39368e"
+                "reference": "e788472c4929f1c6f2d3c7e162053964d2c73137"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fligno-Software/boilerplate-generator/zipball/7461fce8b95653d7f876fce5e15fde8a8f39368e",
-                "reference": "7461fce8b95653d7f876fce5e15fde8a8f39368e",
+                "url": "https://api.github.com/repos/Fligno-Software/boilerplate-generator/zipball/e788472c4929f1c6f2d3c7e162053964d2c73137",
+                "reference": "e788472c4929f1c6f2d3c7e162053964d2c73137",
                 "shasum": ""
             },
             "require": {
@@ -9450,9 +9450,9 @@
                     }
                 },
                 "branch-alias": {
-                    "dev-master": "2.2.x-dev",
-                    "dev-develop": "2.2.x-dev",
-                    "dev-feature": "2.2.x-dev"
+                    "dev-master": "2.3.x-dev",
+                    "dev-develop": "2.3.x-dev",
+                    "dev-feature": "2.3.x-dev"
                 }
             },
             "autoload": {
@@ -9484,9 +9484,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Fligno-Software/boilerplate-generator/issues",
-                "source": "https://github.com/Fligno-Software/boilerplate-generator/tree/2.2.2"
+                "source": "https://github.com/Fligno-Software/boilerplate-generator/tree/2.3.1"
             },
-            "time": "2022-10-27T19:07:36+00:00"
+            "time": "2022-11-03T07:19:50+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
