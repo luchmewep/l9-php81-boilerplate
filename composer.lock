@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47141c8423522dc67d68e64e16dae245",
+    "content-hash": "624ad4fa9afbc09665d41e87df5b55e9",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -1729,16 +1729,16 @@
         },
         {
             "name": "fligno/api-sdk-kit",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fligno-Software/api-sdk-kit.git",
-                "reference": "e981065ea472364d42eb112340ede4bec08d11a4"
+                "reference": "0e1ca737b991c8029b63787a0152242bd04e8fef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fligno-Software/api-sdk-kit/zipball/e981065ea472364d42eb112340ede4bec08d11a4",
-                "reference": "e981065ea472364d42eb112340ede4bec08d11a4",
+                "url": "https://api.github.com/repos/Fligno-Software/api-sdk-kit/zipball/0e1ca737b991c8029b63787a0152242bd04e8fef",
+                "reference": "0e1ca737b991c8029b63787a0152242bd04e8fef",
                 "shasum": ""
             },
             "require": {
@@ -1762,8 +1762,8 @@
                     }
                 },
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev",
-                    "dev-develop": "1.4.x-dev"
+                    "dev-master": "1.5.x-dev",
+                    "dev-develop": "1.5.x-dev"
                 }
             },
             "autoload": {
@@ -1799,9 +1799,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Fligno-Software/api-sdk-kit/issues",
-                "source": "https://github.com/Fligno-Software/api-sdk-kit/tree/1.4.0"
+                "source": "https://github.com/Fligno-Software/api-sdk-kit/tree/1.5.0"
             },
-            "time": "2022-11-01T18:06:31+00:00"
+            "time": "2022-11-03T11:46:29+00:00"
         },
         {
             "name": "fligno/starter-kit",
