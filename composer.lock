@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "624ad4fa9afbc09665d41e87df5b55e9",
+    "content-hash": "1e418d83727352dcd7ef19b2bfb86bcd",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -1729,16 +1729,16 @@
         },
         {
             "name": "fligno/api-sdk-kit",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fligno-Software/api-sdk-kit.git",
-                "reference": "0e1ca737b991c8029b63787a0152242bd04e8fef"
+                "reference": "2b974edb7468dee9055f325b8e436ebf4aa60df6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fligno-Software/api-sdk-kit/zipball/0e1ca737b991c8029b63787a0152242bd04e8fef",
-                "reference": "0e1ca737b991c8029b63787a0152242bd04e8fef",
+                "url": "https://api.github.com/repos/Fligno-Software/api-sdk-kit/zipball/2b974edb7468dee9055f325b8e436ebf4aa60df6",
+                "reference": "2b974edb7468dee9055f325b8e436ebf4aa60df6",
                 "shasum": ""
             },
             "require": {
@@ -1799,9 +1799,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Fligno-Software/api-sdk-kit/issues",
-                "source": "https://github.com/Fligno-Software/api-sdk-kit/tree/1.5.0"
+                "source": "https://github.com/Fligno-Software/api-sdk-kit/tree/1.5.1"
             },
-            "time": "2022-11-03T11:46:29+00:00"
+            "time": "2022-11-03T19:53:02+00:00"
         },
         {
             "name": "fligno/starter-kit",
