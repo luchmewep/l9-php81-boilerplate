@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b58f73eb45516163db05de00a705ee4",
+    "content-hash": "fc01f8bae595a76fd8f8bd23a17f044a",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -1992,16 +1992,16 @@
         },
         {
             "name": "fligno/api-sdk-kit",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fligno-Software/api-sdk-kit.git",
-                "reference": "49b9adf7bb9254100e1f5cb184a259db4d70b646"
+                "reference": "03629815ac633229a9188de9852f44d9b059e366"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fligno-Software/api-sdk-kit/zipball/49b9adf7bb9254100e1f5cb184a259db4d70b646",
-                "reference": "49b9adf7bb9254100e1f5cb184a259db4d70b646",
+                "url": "https://api.github.com/repos/Fligno-Software/api-sdk-kit/zipball/03629815ac633229a9188de9852f44d9b059e366",
+                "reference": "03629815ac633229a9188de9852f44d9b059e366",
                 "shasum": ""
             },
             "require": {
@@ -2062,22 +2062,22 @@
             ],
             "support": {
                 "issues": "https://github.com/Fligno-Software/api-sdk-kit/issues",
-                "source": "https://github.com/Fligno-Software/api-sdk-kit/tree/2.0.0"
+                "source": "https://github.com/Fligno-Software/api-sdk-kit/tree/2.0.1"
             },
-            "time": "2022-11-06T14:59:37+00:00"
+            "time": "2022-11-06T17:04:16+00:00"
         },
         {
             "name": "fligno/starter-kit",
-            "version": "3.1.3",
+            "version": "3.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fligno-Software/starter-kit.git",
-                "reference": "55d1b199e661a172122cf702e5fcf076d552561a"
+                "reference": "f381fa4254c32bf85abc5cbbf805b3edd3f919d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fligno-Software/starter-kit/zipball/55d1b199e661a172122cf702e5fcf076d552561a",
-                "reference": "55d1b199e661a172122cf702e5fcf076d552561a",
+                "url": "https://api.github.com/repos/Fligno-Software/starter-kit/zipball/f381fa4254c32bf85abc5cbbf805b3edd3f919d1",
+                "reference": "f381fa4254c32bf85abc5cbbf805b3edd3f919d1",
                 "shasum": ""
             },
             "require": {
@@ -2145,9 +2145,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Fligno-Software/starter-kit/issues",
-                "source": "https://github.com/Fligno-Software/starter-kit/tree/3.1.3"
+                "source": "https://github.com/Fligno-Software/starter-kit/tree/3.1.5"
             },
-            "time": "2022-10-27T18:09:18+00:00"
+            "time": "2022-11-09T02:14:33+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -10469,16 +10469,16 @@
         },
         {
             "name": "fligno/boilerplate-generator",
-            "version": "2.3.1",
+            "version": "2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Fligno-Software/boilerplate-generator.git",
-                "reference": "e788472c4929f1c6f2d3c7e162053964d2c73137"
+                "reference": "00ea710ed5f2d6dea1e713e1febe5f663e399cea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Fligno-Software/boilerplate-generator/zipball/e788472c4929f1c6f2d3c7e162053964d2c73137",
-                "reference": "e788472c4929f1c6f2d3c7e162053964d2c73137",
+                "url": "https://api.github.com/repos/Fligno-Software/boilerplate-generator/zipball/00ea710ed5f2d6dea1e713e1febe5f663e399cea",
+                "reference": "00ea710ed5f2d6dea1e713e1febe5f663e399cea",
                 "shasum": ""
             },
             "require": {
@@ -10546,9 +10546,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Fligno-Software/boilerplate-generator/issues",
-                "source": "https://github.com/Fligno-Software/boilerplate-generator/tree/2.3.1"
+                "source": "https://github.com/Fligno-Software/boilerplate-generator/tree/2.3.3"
             },
-            "time": "2022-11-03T07:19:50+00:00"
+            "time": "2022-11-08T19:55:38+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
